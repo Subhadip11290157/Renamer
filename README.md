@@ -11,3 +11,5 @@ automated file naming system for any file of any extension to a desired extensio
 - Run rename.py
 
 Note: for customizations, edit "rename.py" to tweak target extension and custom file_name_prefix
+
+Courtesy - https://www.tutorialspoint.com/rename-multiple-files-using-python#:~:text=To%20rename%20files%20in%20Python,destination%20address%20(new%20name).
