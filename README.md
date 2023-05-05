@@ -4,6 +4,8 @@ automated file naming system for any file of any extension to a desired extensio
 
 <h3> To do: </h3>
 
+- Clone this repo at any location in your PC (the path is relatively set, so changing location of this directory won't break the code)
+
 - Keep files (to be renamed) inside "folder/" 
 
 - Run rename.py
