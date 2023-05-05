@@ -1,2 +1,2 @@
 # Renamer
-autoname file naming for any file of any extension
+automated file naming system for any file of any extension to a desired extension
