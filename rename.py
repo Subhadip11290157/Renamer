@@ -1,20 +1,16 @@
 import os
-# Function to rename multiple files
 def main():
-	i = 1
+	idx = 1
 	pwd = os.getcwd()
-	path = pwd.replace("\\", "//") + "//folder//"
-	for filename in os.listdir(path):
-		if(filename=="readme.md"):
+	folder_path = pwd.replace("\\", "//") + "//folder//"
+	for file_name in os.listdir(folder_path):
+		if(file_name=="readme.md"):
 			continue
-		my_dest = "pic" + str(i) + ".jpg"
-		my_source = path + filename
-		my_dest = path + my_dest
-		# rename() function will
-		# rename all the files
-		os.rename(my_source, my_dest)
-		i += 1
+		dest_file = "pic" + str(idx) + ".jpg"
+		source_file = folder_path + file_name
+		dest_file = folder_path + dest_file
+		os.rename(source_file, dest_file)
+		idx += 1
 # Driver Code
 if __name__ == '__main__':
-	# Calling main() function
 	main()
